@@ -6,8 +6,7 @@ import { StyleSheet } from 'react-native';
 
 const Chat = () => {
   const [messages, setMessages] = useState([]);
-  const CHAT_GPT_API_KEY =
-    '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';
+  const CHAT_GPT_API_KEY = '';
   const sendMessage = async (message: string) => {
     try {
       const response = await axios.post(
