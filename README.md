@@ -6,3 +6,7 @@
 ### Requirements
 
 `Node JS 18.16.0`
+
+### start
+
+`npx expo start`
